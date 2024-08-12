@@ -4,6 +4,7 @@ WETH:
   decimals: 18
   address:
     arbitrum: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1'
+    ethereum: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
 
 1INCH:
   name: 1iNCH
@@ -81,6 +82,7 @@ ARB:
   decimals: 18
   address:
     arbitrum: '0x912CE59144191C1204E64559FE8253a0e49E6548'
+    ethereum: '0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1'
 
 ATA:
   name: Automata
@@ -144,6 +146,13 @@ BLUR:
   decimals: 18
   address:
     arbitrum: '0xEf171a5BA71348eff16616fd692855c2Fe606EB2'
+
+BNB:
+  name: BNB
+  abi: erc20
+  decimals: 18
+  address:
+    ethereum: '0xB8c77482e45F1F44dE1745F52C74426C631bDD52'
 
 BOND:
   name: BarnBridge
@@ -235,6 +244,7 @@ DAI:
   decimals: 18
   address:
     arbitrum: '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1'
+    ethereum: '0x6B175474E89094C44Da98b954EedeAC495271d0F'
 
 DEXT:
   name: DexTools
@@ -291,6 +301,7 @@ ENS:
   decimals: 18
   address:
     arbitrum: '0xfeA31d704DEb0975dA8e77Bf13E04239e70d7c28'
+    ethereum: '0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72'
 
 ERN:
   name: Ethernity Chain
@@ -389,6 +400,7 @@ GRT:
   decimals: 18
   address:
     arbitrum: '0x9623063377AD1B27544C965cCd7342f7EA7e88C7'
+    ethereum: '0xc944E90C64B2c07662A292be6244BDf05Cda44a7'
 
 GTC:
   name: Gitcoin
@@ -431,6 +443,7 @@ IMX:
   decimals: 18
   address:
     arbitrum: '0x3cFD99593a7F035F717142095a3898e3Fca7783e'
+    ethereum: '0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF'
 
 INJ:
   name: Injective
@@ -452,6 +465,7 @@ LINK:
   decimals: 18
   address:
     arbitrum: '0xf97f4df75117a78c1A5a0DBb814Af92458539FB4'
+    ethereum: '0x514910771AF9Ca656af840dff83E8264EcF986CA'
 
 LPT:
   name: Livepeer
@@ -508,6 +522,7 @@ MATIC:
   decimals: 18
   address:
     arbitrum: '0x561877b6b3DD7651313794e5F2894B2F18bE0766'
+    ethereum: '0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0'
 
 METIS:
   name: Metis
@@ -529,6 +544,7 @@ MKR:
   decimals: 18
   address:
     arbitrum: '0x2e9a6Df78E42a30712c10a9Dc4b1C8656f8F2879'
+    ethereum: '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2'
 
 MLN:
   name: Melon
@@ -599,6 +615,7 @@ PEPE:
   decimals: 18
   address:
     arbitrum: '0x35E6A59F786d9266c7961eA28c7b768B33959cbB'
+    ethereum: '0x6982508145454Ce325dDbE47a25d4ec3d2311933'
 
 PERP:
   name: Perpetual Protocol
@@ -655,6 +672,7 @@ QNT:
   decimals: 18
   address:
     arbitrum: '0xC7557C73e0eCa2E1BF7348bB6874Aee63C7eFF85'
+    ethereum: '0x4a220E6096B25EADb88358cb44068A3248254675'
 
 RAI:
   name: Rai Reflex Index
@@ -704,6 +722,7 @@ RNDR:
   decimals: 18
   address:
     arbitrum: '0xC8a4EeA31E9B6b61c406DF013DD4FEc76f21E279'
+    ethereum: '0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24'
 
 SAND:
   name: The Sandbox
@@ -711,6 +730,7 @@ SAND:
   decimals: 18
   address:
     arbitrum: '0xd1318eb19DBF2647743c720ed35174efd64e3DAC'
+    ethereum: '0x3845badAde8e6dFF049820680d1F14bD3903a5d0'
 
 SHIB:
   name: Shiba Inu
@@ -718,6 +738,7 @@ SHIB:
   decimals: 18
   address:
     arbitrum: '0x5033833c9fe8B9d3E09EEd2f73d2aaF7E3872fd1'
+    ethereum: '0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE'
 
 SKL:
   name: SKALE
@@ -844,6 +865,7 @@ UNI:
   decimals: 18
   address:
     arbitrum: '0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0'
+    ethereum: '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'
 
 USDC:
   name: USDCoin
@@ -851,6 +873,7 @@ USDC:
   decimals: 6
   address:
     arbitrum: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831'
+    ethereum: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48'
 
 USDC.E:
   name: Bridged USDC
@@ -865,6 +888,7 @@ USDT:
   decimals: 6
   address:
     arbitrum: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9'
+    ethereum: '0xdAC17F958D2ee523a2206206994597C13D831ec7'
 
 WAMPL:
   name: Wrapped Ampleforth
@@ -879,6 +903,7 @@ WBTC:
   decimals: 8
   address:
     arbitrum: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f'
+    ethereum: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599'
 
 WOO:
   name: WOO Network
@@ -1012,6 +1037,7 @@ USDD:
   decimals: 18
   address:
     arbitrum: '0x680447595e8b7b3Aa1B43beB9f6098C79ac2Ab3f'
+    ethereum: '0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6'
 
 KNC:
   name: Kyber Network Crystal v2
@@ -1145,3 +1171,10 @@ MGP:
   decimals: 18
   address:
     arbitrum: '0xa61F74247455A40b01b0559ff6274441FAfa22A3'
+
+XRP:
+  name: Ripple
+  abi: erc20
+  decimals: 6
+  address:
+    ethereum: '0x628F76eAB0C1298F7a24d337bBbF1ef8A1Ea6A24'
