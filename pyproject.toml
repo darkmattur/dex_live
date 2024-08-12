@@ -1,0 +1,20 @@
+[project]
+name = "dex_live"
+version = "1.0.0"
+description = "a Python DeFi trading suite"
+authors = [
+    {name = "Matus Lecky", email = "matus.lecky@gmail.com"}
+]
+license = {text = "Proprietary"}
+requires-python = ">= 3.10"
+dependencies = [
+    "pandas >= 2.1.1",
+    "PyYAML >= 6.0",
+    "tqdm >= 4.66.1",
+    "web3 >= 6.10.0",
+    "httpx >= 0.26.0"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
