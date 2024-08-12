@@ -16,7 +16,7 @@ class BaseFactory(BaseContract, threading.Thread):
 
     daemon = True
     _interval = 0.5
-    _processes = 4
+    _processes = 2
 
     @property
     @abc.abstractmethod

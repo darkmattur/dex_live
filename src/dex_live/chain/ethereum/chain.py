@@ -5,6 +5,7 @@ from .wallet import EthereumWallet
 
 ethereum_config = config.get('ethereum')
 
+
 class Ethereum(BaseChain):
     name = 'ethereum'
     chain_id = 1

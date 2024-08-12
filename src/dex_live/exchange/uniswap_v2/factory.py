@@ -44,7 +44,7 @@ class UniswapV2(BaseFactory):
         # Generate set of all possible addresses
         all_pairs = list(itertools.combinations(self.conn.tokens.keys(), r=2))
 
-        for token_0, token_1 in tqdm(all_pairs,  desc=f'Updating pairs for {self.__class__.__name__}'):
+        for token_0, token_1 in tqdm(all_pairs,  desc=f'Updating pairs for {self}'):
             pair = tuple(sorted([token_0, token_1]))
             if pair in known_pairs:
                 continue
