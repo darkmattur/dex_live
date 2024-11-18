@@ -41,9 +41,9 @@ class UniswapV2Edge(BaseEdge):
 
     def calculate_received_amount(self, amount):
         if self.long:
-            x, y = self.pool.token_0_liquidity, self.pool.token_1_liquidity
-        else:
             x, y = self.pool.token_1_liquidity, self.pool.token_0_liquidity
+        else:
+            x, y = self.pool.token_0_liquidity, self.pool.token_1_liquidity
 
         amount_after_fee = (1 - (self.pool.fee / 10000)) * amount
 
